@@ -8,3 +8,12 @@
 - The player can choose to 'Hold', which means that his ROUND score gets added to his GLOBAL score. After that, 
 it's the next player's turn
 - The first player to reach 100 points on GLOBAL score wins the game
+
+## How to run the game:
+
+- You need a live server or local host to run it. Recommended is VSCode Live Server plugin.
+
+### Running the game with VSCode Live Server & Web Browser
+- Goto the game folder. Open the 'index.html' file. 
+- Then right click on inside the 'index.html' file & select 'run with live server'
+- You are ready to play. Enter player 1 & player 2 names and start playing.
