@@ -17,3 +17,7 @@ it's the next player's turn
 - Goto the game folder. Open the 'index.html' file. 
 - Then right click on inside the 'index.html' file & select 'run with live server'
 - You are ready to play. Enter player 1 & player 2 names and start playing.
+
+## The framework & languages used in the game
+- HTML & CSS to design the user interface
+- Javascript DOM Manipulation & Event handler (refer 'app.js' file inside the game folder) 
