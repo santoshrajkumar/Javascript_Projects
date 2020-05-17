@@ -16,7 +16,7 @@ var scores, roundScore, activePlayer, dice1, dice2, previousDice, gamePlaying, w
 
 // Taking user inputs for player names
 var player1 = prompt('Enter Player 1 Name. (Don\'t use long ones');
-var player2 = prompt('Enter Player 1 Name. (Don\'t use long ones');
+var player2 = prompt('Enter Player 2 Name. (Don\'t use long ones');
 var names = [player1, player2]
 
 //initializing the scores to zero & selecting the first player
