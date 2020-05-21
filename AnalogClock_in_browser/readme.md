@@ -8,5 +8,5 @@
 - 'script.js' is to take care of the current time & change of clock arms accordingly
 
 ## The main things used:
--JS DOM manipulation
+- JS DOM manipulation
 - JS callback function 
