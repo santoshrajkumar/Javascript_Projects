@@ -1,0 +1,93 @@
+/* Layout */
+
+body{
+    background: #111;
+}
+
+.main {
+    display: flex;
+    padding: 2em;
+    height: 90vh;
+    justify-content: center;
+    align-items: middle;
+}
+
+.clockbox,
+#clock {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+/* Clock styles */
+.circle {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 9;
+    stroke-miterlimit: 10;
+}
+
+.mid-circle {
+    fill: #fff;
+}
+.hour-marks {
+    fill: none;
+    stroke: rgb(204, 25, 25);
+    stroke-width: 9;
+    stroke-miterlimit: 10;
+}
+
+.hour-arm {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 17;
+    stroke-miterlimit: 10;
+}
+
+.minute-arm {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 11;
+    stroke-miterlimit: 10;
+}
+
+.second-arm {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 4;
+    stroke-miterlimit: 10;
+}
+
+/* Transparent box ensuring arms center properly. */
+.sizing-box {
+    fill: none;
+}
+
+/* Make all arms rotate around the same center point. */
+/* Optional: Use transition for animation. */
+#hour,
+#minute,
+#second {
+    transform-origin: 300px 300px;
+    transition: transform .5s ease-in-out;
+}
+
+.clockbox .time-text p{
+    border: 3px;
+    background: #333;
+}
+
+.footer p {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.footer a {
+    align-items: middle;
+    color: #fff;
+    font-size: 35px;
+    padding-bottom: 10px;
+}
