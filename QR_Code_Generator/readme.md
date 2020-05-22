@@ -8,4 +8,4 @@
 
 ## Tools of JS used:
 - DOM manipulation
-- EventListeners
+- EventListener
