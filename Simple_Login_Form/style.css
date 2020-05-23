@@ -1,0 +1,61 @@
+body {
+  background: #222;
+}
+
+h2{
+  color: #fff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 35px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.container {
+  text-align: center;
+}
+
+.btn {
+  background-color: rgb(66, 34, 209);
+  font-size: 20px;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.btn:hover{
+
+  background-color: rgb(35, 19, 104);
+  font-size: 23px;
+  color: #fff;
+  padding: 2px;
+  border-radius: 5px;
+  margin: 20px;
+
+}
+
+.note {
+  color: #fff;
+  font-size: 20px;
+}
+
+.valid {
+  color: #fff;
+}
+
+label{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  color: #fff;
+  margin: 20px;
+
+}
+
+#username, #password {
+  width: 400px;
+  height: 60px;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  font-size: 30px;
+}
